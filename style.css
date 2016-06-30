@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   background: rgb(113, 172, 203);
 }
-header div, img, header nav {
+header div, header div img, header nav {
   /*height: 100px;*/
   height: 50px;
 }
@@ -54,5 +54,24 @@ h1 {
   border-bottom: 1px solid black;
   padding-top: 10px;
   font-family: 'Caveat', cursive;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main div, main div img {
+  width: 200px;
+  height:200px;
+  /*background: red;*/
+}
+/*main>div {
+  width: 70%;
+  align-self: center;
+}*/
 
+main div {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 500;
 }
