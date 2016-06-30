@@ -1,6 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 2% auto;
+}
 a {
   text-decoration: none;
 }
 li {
   display: inline;
 }
+nav ul li {
+  float: right;
+}
+
+nav ul {
+  background: rgb(113, 172, 203);
+  font-family: Arial;
+  padding: 1.2em;
+  padding-right: 0;
+}
+nav ul li a {
+  background: rgb(124, 190, 142);
+  color: white;
+  padding: 1.2em;
+}
+nav ul li a:hover {
+  background: rgb(203,202,123);
+}
+ul>li:not(:first-of-type) {
+  border-right:1px solid white;
+}
+
+nav ul::after {
+  content:" ";
+  display: block;
+  clear:both;
+}
+
+/*Other colors rgb(129,213,198) (157,213,129)*/
