@@ -55,7 +55,7 @@ h1 {
   padding-top: 10px;
   font-family: 'Caveat', cursive;
 }
-main {
+main, section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -63,15 +63,21 @@ main {
 main div, main div img {
   width: 200px;
   height:200px;
-  /*background: red;*/
 }
-/*main>div {
-  width: 70%;
-  align-self: center;
-}*/
+
 
 main div {
   text-align: center;
   font-family: fantasy;
   font-weight: 500;
+}
+
+section div, section div img {
+  width: 230px;
+  height: 300px;
+
+}
+h2 {
+  padding-top: 10px;
+  font-family: 'Caveat', cursive;
 }
