@@ -15,6 +15,9 @@ header div, img, header nav {
 .name {
   order: 2;
   flex-grow: 2;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 1.2em;
 
 }
 .inLi {
@@ -40,6 +43,16 @@ nav a:hover {
   background: rgb(203,202,123);
 }
 
-
-
 /*Other colors rgb(129,213,198) (157,213,129) rgb(124, 190, 142) rgb(203,202,123) rgb(113, 172, 203)*/
+body {
+  width: 95%;
+  margin: 0 auto;
+  background: rgb(129,213,198);
+}
+h1 {
+  /*border-top: 1px solid black;*/
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  font-family: 'Caveat', cursive;
+
+}
