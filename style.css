@@ -1,1 +1,39 @@
+#navbar {
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  position: absolute;
+  z-index: 999;
+  background-color: #888;
+  opacity: 0.6
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.section {
+  font-size: 4em;
+  text-align: center;
+}
+
+ul {
+  display: block;
+  list-style: none;
+}
+
+#myMenu li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#myMenu a {
+  text-decoration: none;
+  color: white;
+}
+
+#myMenu a:hover {
+  color: black;
+}
