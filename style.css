@@ -1,102 +1,19 @@
-header {
-  display: flex;
-  flex-direction: row;
-  background: rgb(113, 172, 203);
-}
-header div, header div img, header nav {
-  /*height: 100px;*/
-  height: 50px;
+.blurple {
+  background-color: #a09be7;
 }
 
-
-.logo {
-  order: 1;
-}
-.name {
-  order: 2;
-  flex-grow: 2;
-  font-family: 'IM Fell English', serif;
-  font-style: italic;
-  font-size: 1.2em;
-
-}
-.inLi {
-  display:inline;
-
-  position: relative;
-  top: 50%;
-  left: 10%;
-}
-header nav {
-  order: 3;
-
-}
-nav a {
-  text-decoration: none;
-  background: rgb(124, 190, 142);
-  color: white;
-  padding: 16px;
-  position: relative;
-  top: 16px;
-}
-nav a:hover {
-  background: rgb(203,202,123);
+.violet {
+  background-color: #5f00ba;
 }
 
-/*Other colors rgb(129,213,198) (157,213,129) rgb(124, 190, 142) rgb(203,202,123) rgb(113, 172, 203)*/
-body {
-  width: 95%;
-  margin: 0 auto;
-  background: rgb(129,213,198);
-}
-h1 {
-  /*border-top: 1px solid black;*/
-  border-bottom: 1px solid black;
-  padding-top: 10px;
-  font-family: 'Caveat', cursive;
-}
-main, section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-main div, main div img {
-  width: 200px;
-  height:200px;
+.peasoup {
+  background-color: #d6ff79;
 }
 
-
-main div {
-  text-align: center;
-  font-family: fantasy;
-  font-weight: 500;
+.mintease {
+  background-color: #b0ff92;
 }
 
-section div, section div img {
-  width: 230px;
-  height: 300px;
-
-}
-h2 {
-  padding-top: 10px;
-  font-family: 'Caveat', cursive;
-}
-footer {
-  background: rgba(113, 172, 203, 0.3);
-  text-align: center;
-}
-#LI {
-	color: black;
-	text-decoration: none;
-	border: 0;
-	padding: 2px;
-	border-radius: 10%;
-  background: white;
-	font-family: Arial;
-	font-size: 14px;
-}
-
-#LI span {
-	background: #0076b7;
-	color: white;
+.bluscious {
+  background-color: #fff2f1;
 }
