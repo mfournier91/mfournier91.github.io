@@ -74,3 +74,13 @@ ul {
 .topHeavy {
   margin-top: 1.5em;
 }
+
+.icons {
+  max-height: 100px;
+  margin: 20px;
+  color: black;
+}
+
+#red {
+  color: #FF334B;
+}
