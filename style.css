@@ -60,3 +60,17 @@ ul {
 .op50 {
   opacity: .5;
 }
+
+.slide img {
+  width: 50%;
+}
+.lil {
+  font-size: .6em;
+}
+.nano {
+  font-size: .3em;
+}
+
+.topHeavy {
+  margin-top: 1.5em;
+}
