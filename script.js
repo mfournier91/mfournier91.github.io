@@ -6,14 +6,20 @@ $(document).ready(function() {
     });
 
     $('.hoverable').hover(hoverStart, hoverEnd);
+    $('.hoverable').on("click", selectClicked);
 
     function hoverStart() {
       $(this).addClass("hovered");
-      var currentClasses = $(this).attr('class');
     }
 
     function hoverEnd() {
-      $(this).removeClass("hovered")
-      var currentClasses = $(this).attr('class');
+      $(this).removeClass("hovered");
     }
+
+    function selectClicked() {
+      currentSelection = $('.selected');
+      $(currentSelection).removeClass('selected');
+      $(this).addClass('selected');
+    }
+
 });

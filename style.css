@@ -122,3 +122,17 @@ ul {
 	-webkit-transition-delay: .2s;
   background-color: #d2d2f6;
 }
+
+.selected {
+	outline-style: solid;
+	outline-width: 1px;
+	outline-style: dotted;
+}
+
+.stringy {
+  color: #008000;
+}
+
+.booly {
+  color: blue;
+}
