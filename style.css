@@ -75,6 +75,7 @@ ul {
   margin-top: 1.5em;
 }
 
+
 .icons {
   max-height: 100px;
   margin: 20px;
@@ -88,4 +89,24 @@ ul {
   font-size: 1em;
   text-align: left;
   white-space: normal;
+  margin-top: 5.5em;
+  font-family: monospace;
+}
+
+#jsony ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 0 26px;
+}
+
+#jsony li {
+  position: relative;
+}
+
+#jsony .fp-tableCell {
+  vertical-align: top;
+}
+
+.prop {
+  font-weight: bold;
 }
