@@ -84,3 +84,8 @@ ul {
 #red {
   color: #FF334B;
 }
+#json {
+  font-size: 1em;
+  text-align: start;
+  white-space: normal;
+}
