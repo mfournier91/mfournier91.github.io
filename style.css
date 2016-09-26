@@ -28,6 +28,7 @@ h5{
 ul {
   display: block;
   list-style: none;
+  -webkit-padding-start: 0;
 }
 
 #myMenu li {
