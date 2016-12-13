@@ -56,6 +56,10 @@ ul {
   border-radius: 100%;
 }
 
+#welcomeSec h3, #welcomeSec p {
+  text-shadow: 2px 2px black;
+}
+
 .tinyUl {
   font-size: .5em;
 }
