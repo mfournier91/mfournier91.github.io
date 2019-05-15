@@ -2,7 +2,8 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       anchors:['welcome', 'about', 'projects', 'contact', 'json'],
       menu: '#myMenu',
-      sectionsColor: ['#5b507a', '#96bdc6', '#a7a5ce', '#2e6171', '#ebbab9']
+      sectionsColor: ['#5b507a', '#96bdc6', '#a7a5ce', '#2e6171', '#ebbab9'],
+      slidesNavigation: true,
     });
 
     $('.hoverable').hover(hoverStart, hoverEnd);

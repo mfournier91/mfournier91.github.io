@@ -79,14 +79,27 @@
  }
  .fp-controlArrow.fp-prev {
      left: 15px;
-     width: 0;
-     border-width: 38.5px 34px 38.5px 0;
-     border-color: transparent #fff transparent transparent;
+     width: 2em;
+     height: 4em;
+     /* border-width: 38.5px 34px 38.5px 0;
+     border-color: transparent #fff transparent transparent; */
+     border: none;
+     background: url(./left.svg) no-repeat;
+ }
+ .fp-controlArrow.fp-prev:hover {
+    background: url(./leftHov.svg) no-repeat;
  }
  .fp-controlArrow.fp-next {
      right: 15px;
-     border-width: 38.5px 0 38.5px 34px;
-     border-color: transparent transparent transparent #fff;
+     width: 2em;
+     height: 4em;
+     /* border-width: 38.5px 0 38.5px 34px;
+     border-color: transparent transparent transparent #fff; */
+     border: none;
+     background: url(./right.svg) no-repeat;
+ }
+ .fp-controlArrow.fp-next:hover {
+    background: url(./rightHov.svg) no-repeat;
  }
  .fp-scrollable {
      overflow: hidden;
