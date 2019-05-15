@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       anchors:['welcome', 'about', 'projects', 'contact', 'json'],
       menu: '#myMenu',
-      sectionsColor: ['#847577', '#a6a2a2', '#cfd2cd', '#e5e6e4', '#fbfbf2']
+      sectionsColor: ['#5b507a', '#96bdc6', '#a7a5ce', '#2e6171', '#ebbab9']
     });
 
     $('.hoverable').hover(hoverStart, hoverEnd);
