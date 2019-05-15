@@ -79,8 +79,8 @@
  }
  .fp-controlArrow.fp-prev {
      left: 15px;
-     width: 2em;
-     height: 4em;
+     width: 34px;
+     height: 77px;
      /* border-width: 38.5px 34px 38.5px 0;
      border-color: transparent #fff transparent transparent; */
      border: none;
@@ -91,8 +91,8 @@
  }
  .fp-controlArrow.fp-next {
      right: 15px;
-     width: 2em;
-     height: 4em;
+     width: 34px;
+     height: 77px;
      /* border-width: 38.5px 0 38.5px 34px;
      border-color: transparent transparent transparent #fff; */
      border: none;
