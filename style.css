@@ -61,7 +61,7 @@ ul {
 }
 
 .tinyUl {
-  font-size: .5em;
+  font-size: .75em;
 }
 
 .op70 {
@@ -145,11 +145,6 @@ ul {
 
 .booly {
   color: blue;
-}
-
-.aubs {
-  color: rgb(197, 145, 161);
-  text-decoration: none;
 }
 
 .margdiv {
